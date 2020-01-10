@@ -14,5 +14,5 @@ for x in range (0,20):
 
 
 print(yellowpages,'\n')
-pick = input('Type one of the above: ')
+pick = input('Type one of the above names to get the phone number.\n')
 print(yellowpages[pick])
