@@ -10,7 +10,9 @@ for x in range (0,20):
     num = random.randint(100000000,999999999)
     number = '7' + str(num)
 
-    yellowpages[names]=number
+    yellowpages[names]=int(number)
 
 
-print(yellowpages)
+print(yellowpages,'\n')
+pick = input('Type one of the above: ')
+print(yellowpages[pick])
