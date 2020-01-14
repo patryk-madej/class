@@ -1,0 +1,13 @@
+file=open("filename.txt","r")
+
+newfile = "new line"
+file.readline()
+while read = file.readline():
+    if read != "" then:
+        newfile += read
+    else:
+        break
+file.close()
+file = open ("filename.txt","w")
+file.write(newfile)
+file.close
