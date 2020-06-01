@@ -1,3 +1,5 @@
+#calculates the best shipping option given the weight of the parcel
+
 def cost_ground(weight):
   if weight <= 2:
     return weight*1.50+20
